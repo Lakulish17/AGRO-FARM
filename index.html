@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Online Store</title>
+    <meta charset="utf-8" />
+    <meta name="viewpoint" content="width=device-width,initial-scal=1.0">
+    <meta http-equip="X-UA-compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.cs
+s">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.store.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+    </script>
+</head>
+
+<body>
+    <header id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="topnav">
+                <a style="color:black;" class="active" href="#home">Home</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a style="color:black;" class="nav-link" href="#product">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:black;" class="nav-link" href="cart.html"> Cart </a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:black;" class="nav-link" href="check.html">Check out</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:black;" class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:black;" class="nav-link" href="#services">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:black;" class="nav-link" href="#team" tabindex="-1" aria-disabled="true">Our
+                            Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:black;" class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:black;" class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!---banner-->
+    <div class="d-flex shadow" style="background:linear-gradient(315deg,white 50%,yellowgreen 50%);opacity:0.74px; flex-direction: column;">
+        <div class="container-fluid my-auto">
+            <div class="row">
+                <div class="col-lg-6 my-auto">
+                    <div class="gif1"> <embed type="image/jpg" src="./gif/sphere.gif"
+                            width="150" height="60" style="border-radius: 33px;margin-left: 40%;margin-right: 40%;"></div>
+                    
+                    <marquee  scrolldelay="200" behavior="alternate" direction="left"> <h1 class="display-4 font-weight-bold" style="color:white;font-size:30px;">A B2B DIGITAL MARKETPLACE  WHERE</h1></marquee>
+                    <marquee  scrolldelay="200" behavior="alternate" direction="left"> <h1 class="display-4 font-weight-bold" style="color:white;font-size:30px;"> FAIR FOOD TRADE IS MADE EASY, </h1></marquee>
+                    <marquee  scrolldelay="200" behavior="alternate" direction="left"> <h1 class="display-4 font-weight-bold" style="color:white;font-size:30px;"> FAST AND TRANSPARENT!</h1></marquee>
+                     <marquee  scrolldelay="250" behavior="alternate" direction="right" style="float:left;color:darkslategray;font-size:50px;font-family:monospace;" ><img src="./img/agrofarm.JPG" style="border-radius:18px;width:150px;height:100px"> Agrofarm
+                    </marquee><br><hr>
+                    <marquee scrolldelay="700" behavior="down" direction="down" style="color:purple;font-size:23px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align: center;" ><b><hr>Fairtrade Made Easy</b></marquee>
+                   
+                </div>
+                <div class="col-lg-6">
+                    <div class="col-lg-12">
+                        <div class="card-body-mm" style="background:linear-gradient(to right,green,blue);opacity:0.72;border-radius:22px;padding: 26px 22px;margin:50px 5px;">
+                            <form action="" method="post">
+                                <!-- Material input -->
+                                <div class="col-lg-18 mx-auto" style="display:inline-flex">
+                                <div class="md-form" >
+                                    <img src="./icon/1_dxS_icon.ico" style="border-radius:23px;height: 100px;width:100px;margin:5px 5px;float:right">
+                                </div>
+                                <div class="md-form">
+                                    <img src="./icon/2_Znh_icon.ico " style="border-radius:23px;height: 100px;width:100px;margin:5px 5px;float:right">
+                                </div>
+                                <div class="md-form">
+                                    <img src="./icon/3_i2j_icon.ico" style="border-radius:23px;height: 100px;width:100px;margin:5px 5px;float:right">
+                                    </div>
+                                    <div class="md-form" >
+                                        <img src="./icon/1_dxS_icon.ico" style="border-radius:23px;height: 100px;width:100px;margin:5px 5px;float:left">
+                                    </div>
+                                    <div class="md-form">
+                                        <img src="./icon/2_Znh_icon.ico " style="border-radius:23px;height: 100px;width:100px;margin:5px 5px;float:left">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-50" style="display:inline-flex ;padding:15px 15px">
+                                       </div>
+                                    <div class="py-5 text-white" style="background:linear-gradient(to right,black,black);">
+                                        <div class="container-fluid">
+                                          <div class="row">
+                                            
+                          
+                                            <div class="col-lg-14" style="display: flex;">
+                                                  <h5 class="text-center" style="color:white;background-image: linear-gradient(315deg,maroon 50%,black 50%);">
+                                                    &emsp;&emsp;<b>Gallery:Journal</b>
+                                                  </h5>
+                                                  <div class="row-s1" style="background-image: linear-gradient(315deg,white 50%,black 50%);">---------</div>
+                                                  <marquee scrolldelay="140" loop=240; direction="up" style="background:linear-gradient(to right,purple,maroon);height:150px;width:300px;">
+                                                      <div class="row-m">
+                                                  
+                                                          <div class="column">
+                                                            <img src="./img/1.jpg" alt="Loading..." width=280px height=280px; style="margin-left: 3.5%;margin-right: 10%;">
+                                                          </div>
+                                                
+                                                          <div class="column">
+                                                             <hr> <img src="./img/2.jpg" alt="Loading..." width=280px height=280px; style="margin-left: 3.5%;margin-right: 10%;">
+                                                          </div>
+
+                                                          <div class="column">
+                                                            <hr> <img src="./img/d335c2511d396b3ba803b0fd6311096c.jpg" alt="Loading..." width=280px height=280px; style="margin-left: 3.5%;margin-right: 10%;">
+                                                         </div>
+
+                                                         <div class="column">
+                                                            <hr> <img src="./img/4.jpg" alt="Loading..." width=280px height=280px; style="margin-left: 3.5%;margin-right: 10%;">
+                                                         </div>
+
+                                                         <div class="column">
+                                                            <hr> <img src="./img/5.jpg" alt="Loading..." width=280px height=280px; style="margin-left: 3.5%;margin-right: 10%;">
+                                                         </div>
+                                                  </marquee>
+                                                  </div>
+                                                  <div class="row-s2" style="background-image: linear-gradient(315deg, black 50%, white 50%);">---------</div>
+                                            </div>
+                            </form>
+                          <div class="news">
+                        </div>
+                    </div>
+                </div>
+                <marquee scrolldelay="120">
+                    <br>
+                    <h6><b style="color:yellow;">W e l c o m e !&ensp;,t o&ensp;&ensp;O u r&ensp;&ensp;M a r k e t p l a c e</b></h6>
+                </marquee>
+                </div>
+                <marquee>
+                    <br>
+                    <h6><b style="color:white;font-size:18px;">-----------Created-by-Team-No:08--------------</b></h6>
+                </marquee>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <div style="background-image: url(''); background-position: 0%; height: 200px; width: 1400px;">
+        .
+    </div>
+    <!------Featured Categories----->
+
+    <div id="product"></div>
+    <section class="featured-categories">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://5.imimg.com/data5/ST/QW/MY-38700875/fresh-wheat-crop-500x500.jpg
+        ">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <h3>Wheat</h3>
+                        <div class="product-description" data-name="Bed" data-price="25">
+                            <p class="product-price">Rs. 50 </p>
+                            <form class="add-to-cart" action="cart.html" method="post">
+                                <div>
+                                    <label for="qty-2">weight</label>
+                                    <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />kg
+                                </div>
+                                <a href="cart.html">
+                                    <input style="background:linear-gradient(315deg,purple 50%,red 50%);color:white;box-shadow: 3.5px 2.5px black;border-radius:33px;" 
+                                    type="button" value="Add to cart" class="btn"></input>
+                                </a> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://static.toiimg.com/photo/72350262.cms">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <h3>Mustard</h3>
+                        <div class="product-description" data-name="Bed" data-price="25">
+                            <p class="product-price" style="font-size: 22px;">Rs. 170 </p>
+                            <form class="add-to-cart" action="cart.html" method="post">
+                                <div>
+                                    <label for="qty-2">weight</label>
+                                    <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />kg
+                                </div>
+                                <a href="cart.html">
+                                    <input style="background:linear-gradient(315deg,purple 50%,red 50%);color:white;box-shadow: 3.5px 2.5px black;border-radius:33px;" 
+                                    type="button" value="Add to cart" class="btn"></input>
+                                </a> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://media.istockphoto.com/photos/texture-with-of-barley-malt-for-beer-pale-ale-pilsen-picture-id1014182360?k=20&m=1014182360&s=612x612&w=0&h=P3H9kaxn0weOpMX9p6uCfvUJZvD5EjeYBVKvMpuWJUI=
+                ">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <h3>Barley</h3>
+                        <div class="product-description" data-name="Bed" data-price="25">
+                            <p class="product-price">Rs. 95 </p>
+                            <form class="add-to-cart" action="cart.html" method="post">
+                                <div>
+                                    <label for="qty-2">weight</label>
+                                    <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />kg
+                                </div>
+                                <a href="cart.html">
+                                    <input style="background:linear-gradient(315deg,purple 50%,red 50%);color:white;box-shadow: 3.5px 2.5px black;border-radius:33px;" 
+                                    type="button" value="Add to cart" class="btn"></input>
+                                </a> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4EOp3ryDoyDh_sufRznUAfUcdlE5o_DR21w&usqp=CAU
+                    ">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <h3>Peas</h3>
+                        <div class="product-description" data-name="Bed" data-price="25">
+                            <p class="product-price" style="font-size: 22px;">Rs. 200 </p>
+                            <form class="add-to-cart" action="cart.html" method="post">
+                                <div>
+                                    <label for="qty-2">weight</label>
+                                    <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />kg
+                                </div>
+                                <a href="cart.html">
+                                    <input style="background:linear-gradient(315deg,purple 50%,red 50%);color:white;box-shadow: 3.5px 2.5px black;border-radius:33px;" 
+                                    type="button" value="Add to cart" class="btn"></input>
+                                </a> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img
+                            src="https://st2.depositphotos.com/4761309/7289/i/950/depositphotos_72894819-stock-photo-jowar-sorghum-arrange-as-background.jpg">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <h3>Jowar</h3>
+                        <div class="product-description" data-name="Mirror-1" data-price="31">
+                            <p class="product-price">Rs 30</p>
+                            <form class="add-to-cart" action="cart.html" method="post">
+                                <div>
+                                    <label for="qty-2">Quantity</label>
+                                    <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />kg
+                                </div>
+                                <a href="cart.html">
+                                    <input style="background:linear-gradient(315deg,purple 50%,red 50%);color:white;box-shadow: 3.5px 2.5px black;border-radius:33px;" 
+                                    type="button" value="Add to cart" class="btn"></input>
+                                </a> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://www.teahub.io/photos/full/152-1526240_high-quality-pakistani-rice.jpg
+                            " height="10px">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <h3>Rice (Basmati)</h3>
+                        <div class="product-description" data-name="Bed" data-price="25">
+                            <p class="product-price">Rs. 80 </p>
+                            <form class="add-to-cart" action="cart.html" method="post">
+                                <div>
+                                    <label for="qty-2">weight</label>
+                                    <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />kg
+                                </div>
+                                <a href="cart.html">
+                                    <input style="background:linear-gradient(315deg,purple 50%,red 50%);color:white;box-shadow: 3.5px 2.5px black;border-radius:33px;" 
+                                    type="button" value="Add to cart" class="btn"></input>
+                                </a> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://wallpapercave.com/wp/wp3094767.jpg">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <h3>Maize</h3>
+                        <div class="product-description" data-name="Mirror-1" data-price="31">
+                            <p class="product-price">Rs 25</p>
+                            <form class="add-to-cart" action="cart.html" method="post">
+                                <div>
+                                    <label for="qty-2">Quantity</label>
+                                    <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />kg
+                                </div>
+                                <a href="cart.html">
+                                    <input style="background:linear-gradient(315deg,purple 50%,red 50%);color:white;box-shadow: 3.5px 2.5px black;border-radius:33px;" 
+                                    type="button" value="Add to cart" class="btn"></input>
+                                </a> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://previews.123rf.com/images/dipakshelare/dipakshelare1612/dipakshelare161201465/67859854-gros-plan-de-pearl-millet-bajra-avec-une-cuill%C3%A8re-en-bois-.jpg
+        ">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <h3>Bajra</h3>
+                        <div class="product-description" data-name="Bed" data-price="25">
+                            <p class="product-price">Rs. 55 </p>
+                            <form class="add-to-cart" action="cart.html" method="post">
+                                <div>
+                                    <label for="qty-2">weight</label>
+                                    <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />kg
+                                </div>
+                                <a href="cart.html">
+                                    <input style="background:linear-gradient(315deg,purple 50%,red 50%);color:white;box-shadow: 3.5px 2.5px black;border-radius:33px;" 
+                                    type="button" value="Add to cart" class="btn"></input>
+                                </a> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://c1.wallpaperflare.com/preview/365/769/148/mung-beans-moong-beans-green-gram-golden-gram-beans-green.jpg
+
+            ">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <h3>Moong</h3>
+                        <div class="product-description" data-name="Bed" data-price="25">
+                            <p class="product-price" style="font-size: 22px;">Rs. 140 </p>
+                            <form class="add-to-cart" action="cart.html" method="post">
+                                <div>
+                                    <label for="qty-2">weight</label>
+                                    <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />kg
+                                </div>
+                                <a href="cart.html">
+                                    <input style="background:linear-gradient(315deg,purple 50%,red 50%);color:white;box-shadow: 3.5px 2.5px black;border-radius:33px;" 
+                                    type="button" value="Add to cart" class="btn"></input>
+                                </a> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://image.shutterstock.com/image-photo/soy-bean-mature-seeds-immature-260nw-1467898517.jpg
+                ">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <h3>Soyabean</h3>
+                        <div class="product-description" data-name="Bed" data-price="25">
+                            <p class="product-price" style="font-size: 22px;">Rs. 130 </p>
+                            <form class="add-to-cart" action="cart.html" method="post">
+                                <div>
+                                    <label for="qty-2">weight</label>
+                                    <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />kg
+                                </div>
+                                <a href="cart.html">
+                                    <input style="background:linear-gradient(315deg,purple 50%,red 50%);color:white;box-shadow: 3.5px 2.5px black;border-radius:33px;" 
+                                    type="button" value="Add to cart" class="btn"></input>
+                                </a> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://media.istockphoto.com/photos/peanuts-picture-id616003590?b=1&k=20&m=616003590&s=170667a&w=0&h=0x21eSDGOBnE7Tcn2zNCrcVCTUXLJbAiQYaChlJG8kM=
+    ">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <h3>Groundnut</h3>
+                        <div class="product-description" data-name="Bed" data-price="25">
+                            <p class="product-price">Rs. 75 </p>
+                            <form class="add-to-cart" action="cart.html" method="post">
+                                <div>
+                                    <label for="qty-2">weight</label>
+                                    <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />kg
+                                </div>
+                                <a href="cart.html">
+                                    <input style="background:linear-gradient(315deg,purple 50%,red 50%);color:white;box-shadow: 3.5px 2.5px black;border-radius:33px;" 
+                                    type="button" value="Add to cart" class="btn"></input>
+                                </a> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://www.netmeds.com/images/cms/magefan_blog/nmslite/1615194699_Toor-Dal_480x180.jpg
+        ">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <h3>Toor Dal (Organic)</h3>
+                        <div class="product-description" data-name="Bed" data-price="25">
+                            <p class="product-price" style="font-size: 22px;">Rs. 250 </p>
+                            <form class="add-to-cart" action="cart.html" method="post">
+                                <div>
+                                    <label for="qty-2">weight</label>
+                                    <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />kg
+                                </div>
+                                <a href="cart.html">
+                                    <input style="background:linear-gradient(315deg,purple 50%,red 50%);color:white;box-shadow: 3.5px 2.5px black;border-radius:33px;" 
+                                    type="button" value="Add to cart" class="btn"></input>
+                                </a> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://media.istockphoto.com/photos/almond-backgrounds-nut-food-textured-harvesting-picture-id1153088551?b=1&k=20&m=1153088551&s=170667a&w=0&h=mhAS4LtQLQpFJ_iikugwMn9UF-bu3ErptJ4tU_vHt-k=
+        ">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <h3>Almond (Miltop )</h3>
+                        <div class="product-description" data-name="Bed" data-price="25">
+                            <p class="product-price" style="font-size: 22px;">Rs. 800 </p>
+                            <form class="add-to-cart" action="cart.html" method="post">
+                                <div>
+                                    <label for="qty-2">weight</label>
+                                    <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />kg
+                                </div>
+                                <a href="cart.html">
+                                    <input style="background:linear-gradient(315deg,purple 50%,red 50%);color:white;box-shadow: 3.5px 2.5px black;border-radius:33px;" 
+                                    type="button" value="Add to cart" class="btn"></input>
+                                </a> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://m.media-amazon.com/images/I/414Wq8UWTrL._SX466_.jpg
+            ">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <h3> Walnut (Kahmiri) </h3>
+                        <div class="product-description" data-name="Bed" data-price="25">
+                            <p class="product-price" style="font-size: 22px;">Rs. 900 </p>
+                            <form class="add-to-cart" action="cart.html" method="post">
+                                <div>
+                                    <label for="qty-2">weight</label>
+                                    <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />kg
+                                </div>
+                                <a href="cart.html">
+                                    <input style="background:linear-gradient(315deg,purple 50%,red 50%);color:white;box-shadow: 3.5px 2.5px black;border-radius:33px;" 
+                                    type="button" value="Add to cart" class="btn"></input>
+                                </a> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://media.istockphoto.com/photos/bowl-of-halved-cashew-nuts-in-a-wooden-bowl-picture-id470795758?k=20&m=470795758&s=612x612&w=0&h=P-PUB1yHfeBtXaaA6Wio_fLHYSHt_jM3FOW1s68er1U=
+    ">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <h3> Cashew (Miltop)</h3>
+                        <div class="product-description" data-name="Bed" data-price="25">
+                            <p class="product-price" style="font-size: 22px;">Rs. 910 </p>
+                            <form class="add-to-cart" action="cart.html" method="post">
+                                <div>
+                                    <label for="qty-2">weight</label>
+                                    <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />kg
+                                </div>
+                                <a href="cart.html">
+                                    <input style="background:linear-gradient(315deg,purple 50%,red 50%);color:white;box-shadow: 3.5px 2.5px black;border-radius:33px;" 
+                                    type="button" value="Add to cart" class="btn"></input>
+                                </a> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <img src="https://images.everydayhealth.com/images/heart-health/high-cholesterol/eating-nuts-adds-up-to-longer-life-722x406.jpg
+">
+                        <div class="overlay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="fa fa-heart-o"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <h3>Peanut</h3>
+                        <div class="product-description" data-name="Bed" data-price="25">
+                            <p class="product-price" style="font-size: 22px;">Rs. 166 </p>
+                            <form class="add-to-cart" action="cart.html" method="post">
+                                <div>
+                                    <label for="qty-2">weight</label>
+                                    <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />kg
+                                </div>
+                                <a href="cart.html">
+                                    <input style="background:linear-gradient(315deg,purple 50%,red 50%);color:white;box-shadow: 3.5px 2.5px black;border-radius:33px;" 
+                                    type="button" value="Add to cart" class="btn"></input>
+                                </a> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div><br><br>
+        <div style="background-color: lightgray; ">
+            <h2 style="text-align: center; color: green;" class="proposition"><b> OUR VALUE PROPOSITION </b></h2><BR>
+            <div style="padding: 0px 150px 20px 150px; font-size: 20px; text-align: center;">
+                Agrofarm accommodates direct transactions between buyers and sellers. All intermediate supply chain
+                stages are covered by Agri MP .
+            </div>
+            <div style="padding-left: 220px;">
+                <video width="80%" playsinline="true" autoplay="autoplay" muted="muted" loop="loop" type="video/mp4"
+                    src="https://agrimp-prod.s3.amazonaws.com/public/OVP_Video.mp4"></video>
+            </div>
+        </div>
+
+        <!------About Section------->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 style="text-align: center;">ABOUT US</h2>
+                        <div class="about-content">
+                            <h4>Our Vision</h4>
+                            <p> Agrofarm's vision is to become the largest agricultural fair-trade platform,
+                                connecting farmers to industrial all around the world.</p>
+                            <br>
+                            <h4> Our Mission</h4>
+                            <p> Agrofarm's mission is to become THE global reference for DIGITAL agricultural food crop
+                                transactions
+                                through a complete PLATFORM solution.</p>
+                            <br>
+                            <h4> Agrofarm</h4>
+                            <p>
+                                The purpose of Agrofarm is to provide connections between different roles in the
+                                agriculture industry. As the farmers are not getting a fair price for their goods
+                                because of contractors. This app removes the requirement of contractors for farmers.
+                                Farmers can buy their required needs for farming from Sellers and they can also sell
+                                their products to the Consumers directly without the interference of Contracter.
+                            </p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-md-6 skills-bar">
+                        <p>Delivery Rate</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:75%;">75%</div>
+                        </div>
+                        <p>Customer Growth</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:70%;">70%</div>
+                        </div>
+                        <p>Happy Employee</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:85%;">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!------Services Section------->
+            <section id="services">
+                <div class="container">
+                    <h1>Our Services</h1>
+                    <div class="row services">
+                        <div class="col-md-4 text-center">
+                            <div class="icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <h3> 24/7 Support</h3>
+                            <p>on any item related queries</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="icon">
+                                <i class="fa fa-shopping-cart"></i>
+                            </div>
+                            <h3> Direct Transactions between </h3>
+                            <p>farmers and Consumers / Industry / Retail</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="icon">
+                                <i class="fa fa-truck"></i>
+                            </div>
+                            <h3>Get free delivery</h3>
+                            <p>on orders above Rs.1500</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-----Team------->
+            <section id="team">
+                <div class="container">
+                    <h1>Our Team</h1>
+                    <div class="row">
+                        <div class="col-md-3 profile-pic text-center">
+                            <div class="img-box">
+                                <img src="lakulish.jpg" class="img-responsive">
+                                <ul>
+                                    <a href="https://www.facebook.com/">
+                                        <li><i class="fa fa-facebook"></i></li>
+                                    </a>
+                                    <a href="https://twitter.com/login">
+                                        <li><i class="fa fa-twitter"></i></li>
+                                    </a>
+                                    <a href="https://www.linkedin.com/home">
+                                        <li><i class="fa fa-linkedin"></i></li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <h2>LAKULISH PALIWAL</h2>
+                        </div>
+                        <div class="col-md-3 profile-pic text-center">
+                            <div class="img-box">
+                                <img src="prakash.jpeg" class="img-responsive">
+                                <ul>
+                                    <a href="https://www.facebook.com/">
+                                        <li><i class="fa fa-facebook"></i></li>
+                                    </a>
+                                    <a href="https://twitter.com/login">
+                                        <li><i class="fa fa-twitter"></i></li>
+                                    </a>
+                                    <a href="https://www.linkedin.com/home">
+                                        <li><i class="fa fa-linkedin"></i></li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <h2>PRAKASH PARMAR </h2>
+                        </div>
+                        <div class="col-md-3 profile-pic text-center">
+                            <div class="img-box">
+                                <img src="aman.jpeg" class="img-responsive">
+                                <ul>
+                                    <a href="https://www.facebook.com/">
+                                        <li><i class="fa fa-facebook"></i></li>
+                                    </a>
+                                    <a href="https://twitter.com/login">
+                                        <li><i class="fa fa-twitter"></i></li>
+                                    </a>
+                                    <a href="https://www.linkedin.com/home">
+                                        <li><i class="fa fa-linkedin"></i></li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <h2>AMAN PATEL</h2>
+                        </div>
+                        <div class="col-md-3 profile-pic text-center">
+                            <div class="img-box">
+                                <img src="kairav.jpeg" class="img-responsive">
+                                <ul>
+                                    <a href="https://www.facebook.com/">
+                                        <li><i class="fa fa-facebook"></i></li>
+                                    </a>
+                                    <a href="https://twitter.com/login">
+                                        <li><i class="fa fa-twitter"></i></li>
+                                    </a>
+                                    <a href="https://www.linkedin.com/home">
+                                        <li><i class="fa fa-linkedin"></i></li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <h2>KAIRAV PANDYA</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!------COntact------------>
+            <section id="contact">
+                <div class="container">
+                    <h1>Get In Touch</h1>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <form class="contact-form">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name..">
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" class="form-control" placeholder="Phone no.">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email..">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="4" placeholder="Message.."></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                        <div class="col-md-6 contact-info">
+                            <div class="follow"><b><i class="fa fa-map-marker"></i> </b>Near Hariyali Hotel,Vadodara
+                            </div>
+                            <div class="follow"><b><i class="fa fa-mobile"></i> </b>(+91)7567994080</div>
+                            <div class="follow"><b><i class="fa fa-envelope"></i> </b>Agrofarm@gmail.com</div>
+                            <div class="follow"><label><b>Get Social
+                                    </b></label>
+                                <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.youtube.com/"><i class="fa 
+fa-youtube-play"></i></a>
+                                <a href="https://twitter.com/login"><i class="fa fa-twitter"></i></a>
+                                <a href="https://myaccount.google.com/"><i class="fa fa-google-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+</body>
+
+</html>
